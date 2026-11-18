@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "skyshardprofit",
+  "version": "${version}",
+  "name": "SkyShard Profit",
+  "description": "Client-side Hypixel SkyBlock shard fusion profit calculator with live Bazaar prices.",
+  "authors": ["SkyShard Profit"],
+  "contact": {
+    "sources": "https://github.com/Campionnn/SkyShards"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.skyshardprofit.SkyShardProfitClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
